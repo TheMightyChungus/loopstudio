@@ -1,0 +1,423 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+body{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+
+header{
+    background-image: url("images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+}
+
+header {
+    padding-left: 10%;
+    padding-bottom: 1rem;
+    margin-bottom: 8rem;
+}
+
+.desktop-logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+.mobile-header{
+    display: none;
+}
+
+.mobile-logo-nav-container{
+    display: none;
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    color: white;
+    margin-right: 4rem;
+
+}
+
+.immersive{
+    font-size: 90px;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 5rem 1rem 1rem;
+    display: inline-block;
+    margin-top: 10%;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#interactive{
+    display: flex;
+    padding-left: 10%;
+    position: relative;
+}
+
+.flex-img{
+    z-index: 1;
+}
+
+.flex-text{
+    z-index: 2;
+    position: relative;
+    background-color: white;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-top: 4rem;
+    width: 500px;
+    position: absolute;
+    right: 250px;
+    top: 220px;
+}
+
+.flex-text h1{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.flex-text p{
+    background-color: white;
+    line-height: 30px;
+}
+
+#creations{
+    margin-top: 8rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.our-creations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.our-creations h2{
+    font-size: 3rem;
+}
+
+.our-creations button{
+    height: 35px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#gallery-one{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 1rem;
+    padding-left: 10%;
+}
+
+#gallery-one img{
+    width: 380px;
+}
+
+#gallery-two{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-left: 10%;
+    margin-bottom: 8rem;
+}
+
+#gallery-two img{
+    width: 380px;
+}
+.creations-flex-img{
+    position: relative;
+}
+
+.creations-flex-img p {
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    left: 40px;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+footer{
+    background-color: black;
+    padding: 2rem;
+    padding-left: 10%;
+}
+
+footer .logo img{
+    margin-bottom: 2rem;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    background-color: black;
+    color: white;
+}
+
+footer ul li:hover{
+    border-bottom: 1px solid white;
+}
+
+small{
+    color: white;
+    display: inline-block;
+    margin-left: auto;
+}
+
+  .logo-icon-container{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.logo-icon-container .icons img{
+    margin-left: 1rem;
+}
+.nav-small-container{
+    display: flex;
+    
+}
+
+.help-me-god img{
+    display: none;
+}
+
+#see-all{
+    display: none;
+}
+
+.logo-footer-nav{
+    display: none;
+}
+
+
+#mobile-logo{
+    display: none;
+}
+
+
+.nav-small-container img{
+    margin-right: 100px;
+}
+}
+
+
+/* MAX WIDTH: 480 */ 
+
+@media screen and (max-width: 1439px) {
+    header{
+        background-image: url("images/desktop/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 50vh;
+    }
+
+    .immersive{
+        font-size: 40px;
+        color: white;
+        border: 1px solid white;
+        padding: 1rem 0rem 1rem 1rem;
+        width: 80%;
+        text-transform: uppercase;
+        margin:  auto;
+    }
+
+    .desktop-logo-nav-container{
+        display: none;
+    }
+
+    .mobile-header{
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn-open{
+        background: none;
+        border: none;
+    }
+
+    .btn-open:focus{
+        background-color: gray;
+    }
+
+    .mobile-header img{
+        align-self: center;
+    }
+
+    .mobile-logo-nav-container {
+        background-color: black;
+        position: relative;
+        height: 100vh;
+        z-index: 1;
+        padding-left: 10%;
+        padding-top: 8%;
+        margin-top: -100px;
+        display: none;
+
+    }
+
+    .mobile-logo-nav-container .logo{
+        display: flex;
+        margin-bottom: 30%;
+    }
+
+    .mobile-logo-nav-container img{
+        align-self: center;
+    }
+    
+    .mobile-logo-nav-container .logo-img{
+        margin-right: 30%;
+    }
+
+    .mobile-logo-nav-container .btn-close{
+        background-color: black;
+        border: none;
+        padding: 1rem;
+        margin-left: 1.25rem;
+        
+    }
+
+    .btn-close:focus{
+        background-color: gray;
+    }
+
+    .mobile-logo-nav-container nav ul li {
+        color: white;
+        list-style: none;
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    picture img {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6%;
+    }
+
+    .flex-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .flex-text h1{
+        margin-bottom: 1rem;
+        font-size: 3rem;
+    }
+
+    #creations{
+        margin-top: 4rem;
+    }
+    
+    #creations .our-creations button{
+        display: none;
+    }
+
+    #creations .our-creations h2{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    #gallery-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #gallery-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.creations-flex-img {
+    position: relative;
+}
+    
+.creations-flex-img p {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 40px;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+#see-all{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 4rem;
+    border: 2px solid black;
+    background: none;
+    display: block;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+}
+
+.logo-icon-container{
+    display: none;
+}
+
+.nav-small-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.nav-small-container img{
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.nav-small-container ul{
+    color: white;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.nav-small-container ul  li{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.logo-footer-nav img{
+    margin-left: 1rem;
+}
+
+small{
+    color: gray;
+    padding-bottom: 2rem;
+}
+
+}

@@ -1,0 +1,6 @@
+Background Image Mobile
+----------------------
+background-image: url("images/desktop/image-hero.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+-----------------------
